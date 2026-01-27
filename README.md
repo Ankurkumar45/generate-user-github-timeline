@@ -37,7 +37,7 @@ Built with **clean architecture**, **custom hooks**, and a **scalable folder str
 * **State Management:** React Hooks
 * **API:** GitHub REST API
 * **Caching:** LocalStorage
-* **Build Tool:** Vite / CRA (compatible)
+* **Build Tool:** Vite
 
 ---
 
@@ -124,7 +124,7 @@ The app will be available at:
 * 📊 Language & activity charts
 * 🧵 Commit-level timeline
 * 🌍 URL-synced filters
-* ⚙️ Next.js App Router migration
+* ⚙️ React.js App Router migration
 * 🧪 Unit & integration tests
 
 ---
