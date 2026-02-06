@@ -2,8 +2,6 @@
 
 A modern **React application** that generates a **visual timeline or grid view of any GitHub user’s repositories**, with powerful filtering, sorting, grouping, and export features.
 
-Built with **clean architecture**, **custom hooks**, and a **scalable folder structure** — ideal for portfolios, interviews, and real-world use.
-
 ---
 
 ## ✨ Features
