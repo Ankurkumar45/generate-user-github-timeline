@@ -1,5 +1,4 @@
 import React from 'react';
-// import './GroupHeader.css';
 
 const GroupHeader = ({ title, date }) => {
     return (

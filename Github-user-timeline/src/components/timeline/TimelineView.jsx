@@ -1,7 +1,6 @@
 import React from "react";
 import RepoItem from "./RepoItem";
 import GroupHeader from "../timeline/GroupHeader";
-// import { monthLabel } from "../../utils/dateHelpers";
 
 export default function TimelineView({
   repos,

@@ -1,24 +1,8 @@
 import React from 'react';
-import { formatDate, formatNumber } from "../utils/formatters";
 
 function TimelineItem({ repo }) {
     return (
         <>
-            {/* <article className="bg-slate-900 border border-white/10 rounded-xl p-4">
-                <div className="flex justify-between">
-                    <a href={repo.html_url} target="_blank" className="font-semibold hover:underline">
-                        {repo.name}
-                    </a>
-                    <span className="text-xs text-slate-400">{formatDate(repo.created_at)}</span>
-                </div>
-                <p className="text-sm text-slate-300 mt-2">{repo.description || "No description"}</p>
-                <div className="flex gap-3 text-xs text-slate-400 mt-3">
-                    <span>★ {formatNumber(repo.stargazers_count)}</span>
-                    <span>⑂ {formatNumber(repo.forks_count)}</span>
-                    {repo.language && <span>{repo.language}</span>}
-                </div>
-
-            </article> */}
             <section id="profile" class="mb-6 hidden rounded-2xl border border-white/10 bg-white/5 p-4 md:p-5 glass"></section>
 
             <section class="rounded-2xl border border-white/10 bg-white/5 p-4 md:p-5 glass">

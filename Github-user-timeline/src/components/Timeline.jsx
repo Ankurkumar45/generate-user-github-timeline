@@ -1,15 +1,9 @@
 import React from 'react';
-import TimelineItem from './TimelineItem';
 
 function Timeline({ repos }) {
     if (!repos.length) return null;
     return (
         <>
-            {/* <div className="space-y-4">
-                {repos.map((repo) => (
-                    <TimelineItem key={repo.id} repo={repo} />
-                ))}
-            </div> */}
             <section id="profile" class="mb-6 hidden rounded-2xl border border-white/10 bg-white/5 p-4 md:p-5 glass"></section>
 
             <section class="rounded-2xl border border-white/10 bg-white/5 p-4 md:p-5 glass">

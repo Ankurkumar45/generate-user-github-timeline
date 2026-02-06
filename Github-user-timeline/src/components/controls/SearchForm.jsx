@@ -33,7 +33,7 @@ function SearchForm({
                                     name="username"
                                     value={formData.username}
                                     onChange={onChange}
-                                    placeholder="e.g. torvalds"
+                                    placeholder="e.g. Ankurkumar45"
                                     autoComplete="off"
                                     spellCheck="false"
                                     className="w-full rounded-xl border border-white/10 bg-slate-950/40 px-4 py-3 text-sm text-slate-100 placeholder:text-slate-500 outline-none focus:border-indigo-400/60"

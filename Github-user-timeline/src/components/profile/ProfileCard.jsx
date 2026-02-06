@@ -16,15 +16,6 @@ function ProfileCard({ user, repos, lastFetchAt }) {
     );
     return (
         <>
-            {/* <section className="flex gap-4 items-center bg-white/5 border border-white/10 rounded-xl p-4">
-                <img src={user.avatar_url} className="h-16 w-16 rounded-xl" />
-                <div>
-                    <h2 className="text-lg font-semibold">{user.login}</h2>
-                    <p className="text-sm text-slate-400">Public repos: {formatNumber(user.public_repos)}</p>
-                    <p className="text-sm text-slate-400">Loaded: {repos.length}</p>
-                </div>
-            </section> */}
-
             <section className="mb-6 rounded-2xl border border-white/10 bg-white/5 p-4 md:p-5 backdrop-blur">
                 <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
                     {/* Left: Avatar + Info */}
